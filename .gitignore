@@ -75,3 +75,10 @@ pickle-email-*.html
 
 # Ignore application configuration
 /config/application.yml
+
+#email development and production files containing mandrill passwords
+/config/environments/development.rb
+/config/environments/production.rb
+
+#db seeds file containing user password
+/db/seeds.rb
